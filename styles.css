@@ -23,6 +23,14 @@ body {
   margin-top: 40px;
   font-size: 5.5rem;
 }
+
+@media (max-width: 460px) {
+  #title {
+    font-size: 3.5rem;
+    line-height: 1.2;
+  }
+}
+
 #note {
   margin: 20px;
   font-size: 2.2rem;
@@ -69,4 +77,14 @@ blockquote > p {
 h3 {
   font-size: 2.5rem;
   margin-bottom: 30px;
+}
+@media (max-width: 460px) {
+  #main {
+    margin: 0;
+  }
+}
+@media (max-width: 460px) {
+  #img-caption {
+    font-size: 1.4rem;
+  }
 }
